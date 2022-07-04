@@ -51,11 +51,16 @@ p{
     color: white;
     padding: 10px 40px;
     border-radius: 5px;
+    translate: 0.9s;
     background: linear-gradient(45deg, lightsalmon, tomato);
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+}
+.link-btn:hover{
+    background: linear-gradient(45deg, tomato, lightsalmon);
+    
 }
 .item-2{
     width: 40%;
