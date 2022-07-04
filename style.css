@@ -9,10 +9,10 @@ body{
 .d-flex{
     display: flex;
 }
-.sectin-1{
+.section-1{
     background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
-    height: 500px;
+    height:700px;
     padding-bottom: 150px;
 
 }
@@ -23,10 +23,11 @@ body{
     width: 40%;
     margin-left: 5%;
     padding-left: 2%;
+    float: left;
 }
 h1{
     font-size: 50px;
-    margin-top: 35px;
+    margin-top: 80px;
 
 }
 .item-1 h2{
@@ -39,7 +40,41 @@ h1{
 h3{
     margin-top:50px;
 }
-.item-2 img{
-    height: 500px;
-    width: 500px;
+.item-1 p{
+    display: block;
+    margin-top:10px;   
+    margin-bottom:20px; 
 }
+.link-btn{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.item-2{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 30px;
+}
+.item-2 img{
+    width: 100%;
+}
+
+
+
+/* section-3 */
+
+.section-2{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
